@@ -75,6 +75,8 @@ class MainActivity : AppCompatActivity() {
 
             buttonC.setOnClickListener { value ->
                newNumber.setText("")
+                result.setText("")
+                operation.setText("")
             }
 
 
